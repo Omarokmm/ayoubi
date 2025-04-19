@@ -484,13 +484,18 @@ img {
   box-shadow: 0 6px 8px rgba(174, 190, 205, 0.4);
 }
 
-.portfolio__content:hover .portfolio__img {
-  transform: scale(1.02);
+.portfolio__img:hover  {
+  /* transform: scale(1.02); */
+  transform: scale(3);
+
 }
 
 .portfolio__img {
   width: 100%;
   transition: .4s;
+  border-radius: 10px;
+  /* height: 100%; */
+
 }
 
 .portfolio__data {
@@ -583,10 +588,14 @@ img {
 
 .contact__social {
   color: var(--first-color-light);
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin: 0 var(--mb-1);
 }
-
+.email {
+  color: var(--first-color-light);
+  /* font-size: 1.25rem; */
+  margin: 0 var(--mb-1);
+}
 .contact__inputs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
